@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="alglib">
+      <UniqueIdentifier>{f40ffd50-0641-4d22-aae7-f2403361962e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jsoncpp">
+      <UniqueIdentifier>{330bd0a6-d8d0-40ab-996f-a05addff06cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DLS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\alglibinternal.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\alglibmisc.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\ap.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\dataanalysis.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\diffequations.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\fasttransforms.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\integration.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\interpolation.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\kernels_avx2.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\kernels_fma.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\kernels_sse2.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\linalg.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\optimization.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\solvers.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\specialfunctions.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\alglib\src\statistics.cpp">
+      <Filter>alglib</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QSS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Opt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\jsoncpp\dist\jsoncpp.cpp">
+      <Filter>jsoncpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TrackModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\alglib\src\alglibinternal.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\alglibmisc.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\ap.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\dataanalysis.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\diffequations.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\fasttransforms.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\integration.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\interpolation.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\kernels_avx2.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\kernels_fma.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\kernels_sse2.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\linalg.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\optimization.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\solvers.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\specialfunctions.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\statistics.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\alglib\src\stdafx.h">
+      <Filter>alglib</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QSS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jsoncpp\dist\json\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\jsoncpp\dist\json\json-forwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrackModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
